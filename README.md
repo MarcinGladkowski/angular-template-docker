@@ -14,7 +14,7 @@ It's your container id -> fcc99418309d
 
 Move to main directory
 ### Copy 
-sudo docker cp fcc99418309d:/usr/app/angular-project
+sudo docker cp fcc99418309d:/usr/app/angular-project . 
 ### Add permission
 chown -r <your-user>:<your-user> ./angular-project
 ### Build and start docker-compose container
