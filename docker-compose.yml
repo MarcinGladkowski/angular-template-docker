@@ -9,6 +9,7 @@ services:
     expose:
       - 4200
       - 49153
+    user: ${CURRENT_UID}
     volumes:
       - ./angular-project:/usr/app/angular-project
 
